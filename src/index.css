@@ -1,0 +1,51 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Tailwind Config */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom CSS */
+@layer base {
+    body {
+        @apply font-roboto
+    }
+}
+
+/* For Swiper Slider */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 25px !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding-top: 7px;
+    flex-shrink: 0;
+    border: thin solid #F9D0A0;
+    padding-left: 2px;
+}
+
+#testimonial .swiper-pagination {
+    position: static;
+    margin-top: 20px;
+}
+
+#testimonial .swiper-pagination-bullet {
+    background-color: white;
+    opacity: 0.5;
+    width: 12px;
+    height: 12px;
+}
+
+#testimonial .swiper-pagination-bullet-active {
+    background-color: #ce6e19 !important;
+}
+
+/* For React Marquee */
+.rfm-marquee,
+.rfm-initial-child-container {
+    gap: 50px;
+}
