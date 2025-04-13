@@ -27,9 +27,9 @@ const FollowUs = () => {
                     </p>
                 </div>
                 <div className="flex gap-4 md:gap-5 items-center lg:pr-14">
-                    <a href="#" className="transition-transform duration-300 hover:scale-110"><FollowOnInstagram /></a>
-                    <a href="#" className="transition-transform duration-300 hover:scale-110"> <FollowOnFacebook /></a>
-                    <a href="#" className="transition-transform duration-300 hover:scale-110"><FollowOnX /></a>
+                    <a href="https://www.instagram.com" target="_blank" className="transition-transform duration-300 hover:scale-110"><FollowOnInstagram /></a>
+                    <a href="https://www.facebook.com" target="_blank" className="transition-transform duration-300 hover:scale-110"> <FollowOnFacebook /></a>
+                    <a href="https://x.com" target="_blank" className="transition-transform duration-300 hover:scale-110"><FollowOnX /></a>
                 </div>
             </div>
         </section>
