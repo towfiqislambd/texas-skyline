@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { NavLogo } from "@/components/svgContainer/SvgContainer";
 import { RxCross2 } from "react-icons/rx";
+import SmoothScroll from "@/components/SmoothScroll";
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -24,6 +25,7 @@ const Navbar = () => {
 
     return (
         <nav className={`py-2 sm:py-3 z-[999] fixed w-full ${scrolled ? "bg-black border-b border-[#D19A6E] md:top-0" : "bg-[linear-gradient(180deg,rgba(0,0,0,0.88)_-191.48%,rgba(50,50,50,0)_119.27%)] lg:top-16"}`}>
+            <SmoothScroll></SmoothScroll>
             <div className="container md:px-7 lg:px-10 xl:px-16 2xl:px-0 flex justify-between items-center">
                 {/* Nav Logo */}
                 <div>
@@ -33,12 +35,12 @@ const Navbar = () => {
                 </div>
                 {/* Nav Links */}
                 <ul className="gap-12 items-center text-white hidden lg:flex">
-                    <li><NavLink to='/'>About Us</NavLink></li>
-                    <li><NavLink to='/'>Home Search</NavLink></li>
-                    <li><NavLink to='/'>Sell Properties</NavLink></li>
-                    <li><NavLink to='/'>Our Agents</NavLink></li>
-                    <li><NavLink to='/'>Join Texas Skyline</NavLink></li>
-                    <li><NavLink to='/'>Contact</NavLink></li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><a href='#about'>About Us</a></li>
+                    <li><a href='#listing'>Sell Properties</a></li>
+                    <li><a href='#agent'>Our Agents</a></li>
+                    <li><a href='#Neighborhoods'>Join Texas Skyline</a></li>
+                    <li><a href='#contact'>Contact</a></li>
                 </ul>
 
                 {/* For mobile devices */}

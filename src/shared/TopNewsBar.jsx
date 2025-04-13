@@ -24,13 +24,13 @@ const TopNewsBar = () => {
             <div className="container flex justify-between items-center">
                 {/* Social part */}
                 <div className="flex gap-2 items-center">
-                    <a href="#" className="hover:bg-white duration-500 transition-all border rounded-full w-10 h-10 border-[#CC986C] grid place-items-center">
+                    <a href="https://www.facebook.com" target="_blank" className="hover:bg-white duration-500 transition-all border rounded-full w-10 h-10 border-[#CC986C] grid place-items-center">
                         <TopBarSocialIconOne />
                     </a>
-                    <a href="#" className="hover:bg-white duration-500 transition-all border rounded-full w-10 h-10 border-[#CC986C] grid place-items-center">
+                    <a href="https://www.instagram.com" target="_blank" className="hover:bg-white duration-500 transition-all border rounded-full w-10 h-10 border-[#CC986C] grid place-items-center">
                         <TopBarSocialIconTwo />
                     </a>
-                    <a href="#" className="hover:bg-white duration-500 transition-all border rounded-full w-10 h-10 border-bannerTitle grid place-items-center">
+                    <a href="https://x.com" target="_blank" className="hover:bg-white duration-500 transition-all border rounded-full w-10 h-10 border-bannerTitle grid place-items-center">
                         <TopBarSocialIconThree />
                     </a>
                 </div>
