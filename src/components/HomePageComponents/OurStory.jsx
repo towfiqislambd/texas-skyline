@@ -3,7 +3,7 @@ import { AboutUsOne, AboutUsThree, AboutUsTwo } from "../svgContainer/SvgContain
 
 const OurStory = () => {
     return (
-        <section className="py-10 sm:py-14 md:py-20 bg-[#20232B]">
+        <section id="about" className="py-10 sm:py-14 md:py-20 bg-[#20232B]">
             <div className="container">
                 <div className="md:px-7 lg:px-10 xl:px-16 2xl:px-0 grid lg:grid-cols-12 gap-7 sm:gap-10 2xl:gap-16 items-center">
                     <div className="lg:col-span-5">

@@ -43,7 +43,7 @@ const Neighborhoods = () => {
     const previousRef = useRef(null);
     const newRef = useRef(null);
     return (
-        <section className="bg-[#23262d] py-10 sm:py-14 md:py-20 xl:py-24">
+        <section id='Neighborhoods' className="bg-[#23262d] py-10 sm:py-14 md:py-20 xl:py-24">
             <SectionTitle title='Neighborhoods'></SectionTitle>
             <p className="max-w-[578px] text-center mb-20 md:mb-10 xl:mb-16 leading-tight font-semibold text-[22px] sm:text-2xl md:text-3xl xl:text-4xl container font-montserrat mx-auto text-white">Search our interactive map for active listings</p>
 

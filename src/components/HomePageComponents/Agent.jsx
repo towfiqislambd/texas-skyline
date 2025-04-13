@@ -6,7 +6,7 @@ import { InstagramSvg, VerifiedSvg } from "../svgContainer/SvgContainer";
 
 const Agent = ({ data }) => {
     return (
-        <div className="rounded-lg group">
+        <div id="agent" className="rounded-lg group">
             <div className="flex items-center justify-between mb-5">
                 <div className="flex items-center gap-3">
                     <figure className="w-10 h-10 xl:w-12 xl:h-12 flex-shrink-0 rounded-full">
