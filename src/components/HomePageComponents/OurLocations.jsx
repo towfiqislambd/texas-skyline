@@ -20,7 +20,7 @@ const OurLocations = () => {
         <section className="py-10 sm:py-12 bg-[#23262d]">
             <SectionTitle title="Our Locations" />
             <p className="text-center mb-7 sm:mb-10 leading-tight font-semibold text-[22px] sm:text-2xl md:text-3xl xl:text-4xl container font-montserrat mx-auto text-white">
-                Houston areas
+                Areas we cover
             </p>
 
             <div className="container">
