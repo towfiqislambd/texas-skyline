@@ -3,17 +3,18 @@ import Marquee from "react-fast-marquee";
 import { MdLocationOn } from "react-icons/md";
 
 const locations = [
-    { name: "Crockett", url: "https://www.google.com/maps/place/Crockett,+TX" },
-    { name: "Friendswood", url: "https://www.google.com/maps/place/Friendswood,+TX" },
-    { name: "Grapeland", url: "https://www.google.com/maps/place/Grapeland,+TX" },
     { name: "Houston", url: "https://www.google.com/maps/place/Houston,+TX" },
-    { name: "Kennard", url: "https://www.google.com/maps/place/Kennard,+TX" },
-    { name: "Latexo", url: "https://www.google.com/maps/place/Latexo,+TX" },
-    { name: "Willis", url: "https://www.google.com/maps/place/Willis,+TX" },
-    { name: "Weldon", url: "https://www.google.com/maps/place/Weldon,+TX" },
-    { name: "Lovelady", url: "https://www.google.com/maps/place/Lovelady,+TX" },
-    { name: "Pennington", url: "https://www.google.com/maps/place/Pennington,+TX" },
+    { name: "Katy", url: "https://www.google.com/maps/place/Katy,+TX" },
+    { name: "Cypress", url: "https://www.google.com/maps/place/Cypress,+TX" },
+    { name: "Tomball", url: "https://www.google.com/maps/place/Tomball,+TX" },
+    { name: "Woodlands", url: "https://www.google.com/maps/place/The+Woodlands,+TX" },
+    { name: "Conroe", url: "https://www.google.com/maps/place/Conroe,+TX" },
+    { name: "Sugarland", url: "https://www.google.com/maps/place/Sugar+Land,+TX" },
+    { name: "Spring", url: "https://www.google.com/maps/place/Spring,+TX" },
+    { name: "Galveston", url: "https://www.google.com/maps/place/Galveston,+TX" },
+    { name: "Richmond", url: "https://www.google.com/maps/place/Richmond,+TX" },
 ];
+
 
 const OurLocations = () => {
     return (
