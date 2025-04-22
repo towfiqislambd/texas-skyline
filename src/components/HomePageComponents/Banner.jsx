@@ -28,7 +28,12 @@ const Banner = () => {
                 </h1>
                 <p className="sm:text-lg md:text-xl text-white font-montserrat">Turn Your Real Estate Dreams into Reality</p>
                 <div className="flex items-center justify-center">
-                    <input type="text" className="px-3 text-sm sm:text-base sm:px-4 border-none outline-none w-[230px] sm:w-[330px] md:w-[520px] sm:py-3 py-2 rounded-tl rounded-bl bg-white" placeholder="Search by city, area, zip, MLS#, or address" />
+                    <a href="https://www.har.com/idx/mls/search?sitetype=cws&cid=5865&allmls=y&for_sale=1&mlsorgid=1" target="_blank">
+                        <input
+                            type="text"
+                            className="px-3 text-sm sm:text-base sm:px-4 border-none outline-none w-[230px] sm:w-[330px] md:w-[520px] sm:py-3 py-2 rounded-tl rounded-bl bg-white" placeholder="Search by city, area, zip, MLS#, or address"
+                        />
+                    </a>
                     <button className="bg-[#bd8354] rounded-tr rounded-br px-3 sm:px-5 py-[6px] sm:py-3">
                         <img src={search} alt="" />
                     </button>
