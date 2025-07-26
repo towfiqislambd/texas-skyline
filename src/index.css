@@ -1,51 +1,77 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Tailwind Config */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 /* Custom CSS */
 @layer base {
-    body {
-        @apply font-roboto
-    }
+  body {
+    @apply font-roboto;
+  }
 }
 
 /* For Swiper Slider */
 .swiper-button-prev:after,
 .swiper-button-next:after {
-    font-size: 25px !important;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    padding-top: 7px;
-    flex-shrink: 0;
-    border: thin solid #F9D0A0;
-    padding-left: 2px;
+  font-size: 25px !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  padding-top: 7px;
+  flex-shrink: 0;
+  border: thin solid #f9d0a0;
+  padding-left: 2px;
 }
 
 #testimonial .swiper-pagination {
-    position: static;
-    margin-top: 20px;
+  position: static;
+  margin-top: 20px;
 }
 
 #testimonial .swiper-pagination-bullet {
-    background-color: white;
-    opacity: 0.5;
-    width: 12px;
-    height: 12px;
+  background-color: white;
+  opacity: 0.5;
+  width: 12px;
+  height: 12px;
 }
 
 #testimonial .swiper-pagination-bullet-active {
-    background-color: #ce6e19 !important;
+  background-color: #ce6e19 !important;
 }
 
 /* For React Marquee */
 .rfm-marquee,
 .rfm-initial-child-container {
-    gap: 50px;
+  gap: 50px;
+}
+
+/* For Language */
+body {
+  top: 0 !important;
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+.goog-te-menu-frame {
+  max-width: 100% !important;
+}
+
+.goog-te-menu-value span {
+  color: inherit !important;
+}
+
+.goog-te-menu-value {
+  display: none !important;
+}
+
+#google_translate_element {
+  display: none !important;
+}
+.skiptranslate iframe {
+  visibility: hidden !important;
 }
