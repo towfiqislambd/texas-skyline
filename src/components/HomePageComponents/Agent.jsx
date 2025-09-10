@@ -4,6 +4,7 @@ import { RxUpload } from "react-icons/rx";
 import { FaRegBookmark } from "react-icons/fa6";
 import { InstagramSvg, VerifiedSvg } from "../svgContainer/SvgContainer";
 
+
 const Agent = ({ data }) => {
     return (
         <div id="agent" className="rounded-lg group">
